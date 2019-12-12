@@ -101,4 +101,7 @@ curl -i -X GET \
  'http://127.0.0.1:5000/get_products/?category=c1&category=c2&brand=b1&brand=b2'
 ```
 
-Above API will return all the products that are either of brand b1 or brand b2 and have atleast one category of c1 or c2. In this case also we can pass any number of brands and categories in query params and it will return all the products that are from one of the mentioned brand and also lie in atleast one of the mentioned category. 
+Above API will return all the products that are either of brand b1 or brand b2 and have atleast one category of c1 or c2. In this case also we can pass any number of brands and categories in query params and it will return all the products that are from one of the mentioned brand and also lie in atleast one of the mentioned category.
+
+
+Code has been deployed on AWS EC2 machine. IP of the server is `3.6.57.125` To hit the APIs of this server change the IP of localhost to mentioned IP.  
