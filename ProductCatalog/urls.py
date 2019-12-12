@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.urls import path
 from ProductCatalogApp.Views import InsertNewProduct
+from ProductCatalogApp.Views import DeleteProduct
 
 urlpatterns = [
     path('insert_new_product/', InsertNewProduct.insert_new_product),
+    path('delete_product/', DeleteProduct.delete_product),
 ]
