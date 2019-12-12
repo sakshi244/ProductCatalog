@@ -10,4 +10,4 @@ Install all the pip packages using command `pip install -r requirements.txt`
 
 If you install new pip package then do run the command `pip freeze > requirements.txt` to add that package to requirements.txt file
 
-To start the server on PORT 5000 run command `python ProductCatalog/manage.py runserver 0.0.0.0:5000`
+To start the server on PORT 5000 run command `python manage.py runserver 0.0.0.0:5000`
